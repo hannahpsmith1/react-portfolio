@@ -1,0 +1,20 @@
+.header-title {
+    color: white;
+    /* font-family: 'Galada', cursive; */
+    font-size: 50px;
+    /* float: left; */
+}
+
+.header-subtitle, .tabs {
+    color: white;
+    /* font-family: 'Anton', sans-serif; */
+    font-size: large;
+    /* float:left; */
+}
+
+      
+.tabs a {
+    color: blueviolet !important;
+    background-color: grey;
+    opacity: 0.8;
+}

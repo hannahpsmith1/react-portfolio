@@ -2,37 +2,37 @@
     {
         "name": "Hikr", 
         "github": "https://github.com/hannahpsmith1/project-two",
-        "app_url": "https://hikr-journal.herokuapp.com/",
+        "deployed": "https://hikr-journal.herokuapp.com/",
         "img": "/img/hikr.png"
     },
     {
         "name": "Spaceforce", 
         "github": "https://github.com/hannahpsmith1/project-one",
-        "app_url": "https://hannahpsmith1.github.io/project-one/",
+        "deployed": "https://hannahpsmith1.github.io/project-one/",
         "img": "/img/Spaceforce.jpg"
     },
     {
         "name": "Book-Search", 
         "github": "https://github.com/hannahpsmith1/book-search",
-        "app_url": "https://tranquil-badlands-60159.herokuapp.com/search",
+        "deployed": "https://tranquil-badlands-60159.herokuapp.com/search",
         "img": "/img/travel.png"
     },
     {
         "name": "Scheduler", 
         "github": "https://github.com/hannahpsmith1/work-day-scheduler",
-        "app_url": "https://hannahpsmith1.github.io/work-day-scheduler/",
+        "deployed": "https://hannahpsmith1.github.io/work-day-scheduler/",
         "img": "/img/Scheduler.png"
     },
     {
         "name": "Good ReadMe", 
         "github": "https://github.com/hannahpsmith1/good-readme",
-        "app_url": "",
+        "deployed": "",
         "img": "/img/readme.png"
     },
     {
         "name": "Employee Summary", 
         "github": "https://github.com/hannahpsmith1/employee-summary",
-        "app_url": "",
+        "deployed": "",
         "img": "/img/employee.png"
     }
 
