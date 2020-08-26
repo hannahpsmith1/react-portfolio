@@ -3,35 +3,20 @@ import './navbar.css';
 
 function NavBar() {
     return (
-        // <div className="hero-head">
-            <div className="navbar" >
+
+        <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
             <div className="container">
-                {/* <div className="navbar-brand">
-                    <a className="navbar-item logo" href="bulma.html">
-                        <img src="images/HannahSmith.png" alt="Logo" />
-                    </a> */}
-                    <span className="navbar-burger burger" data-target="navbarMenuHeroC">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenuHeroC" className="navbar-menu">
-                    <div className="navbar-end">
-                        <nav className="tabs">
-                            <div className="container">
-                                <ul>
-                                    <li className="home"><a>Home</a></li>
-                                    <li><a>About Me</a></li>
-                                    <li><a id="myAnc2">clickName Here</a></li>
-                                    <li><a>Skills</a></li>
-                                    <li><a>Employment</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            // </div>
+                <ul>
+                    <li className="home"><a href="/">Home</a></li>
+                    <li><a href="/AboutMe">About Me</a></li>
+                    <li><a href="/Projects">Projects</a></li>
+                    <li><a href="/Skills">Skills</a></li>
+                    <li><a href="/Employment">Employment</a></li>
+                </ul>
+            </div>
+        </nav>
+</div >
     );
 
 }

@@ -1,9 +1,16 @@
 import React from "react";
-import Hero from "../components/Hero/Hero"
+// import Footer from "../components/Footer";
+// import Hero from "../components/Hero/Hero";
+import Hero from "../components/Hero/HeroToo"
 
 const Home = () => {
     return (
-        <Hero/>
+        // <Footer/>
+        <div>
+            <Hero/>
+        </div>
+        // <Hero/>
+        // <div>Hannah</div>
     );
 };
 
