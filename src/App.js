@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css';
 import AboutMe from './pages/AboutMe';
 import ProjectsPage from './pages/ProjectsPage';
+import Projects from './pages/Projects';
 import Home from './pages/Home';
 // import Hero from "./components/Hero/Hero";
 import Hero from "./components/Hero/HeroToo";
@@ -22,7 +23,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/AboutMe" component={AboutMe} />
-          <Route exact path="/Projects" component={ProjectsPage} />
+          <Route exact path="/Projects" component={Projects} />
           {/* <Route exact path="/Skills" component={Skills} /> */}
           {/* <Route exact path="/Employment" component={Employment} /> */}
         </Switch>

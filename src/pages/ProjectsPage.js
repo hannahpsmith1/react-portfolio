@@ -9,7 +9,7 @@ const ProjectsPage = (props) => {
     return (
         
         <div>
-            <Hero/>
+            <Hero>
             {projects.map(project =>
                 <Card
                     key={project.name}
@@ -22,7 +22,7 @@ const ProjectsPage = (props) => {
 
 
             )}
-
+            </Hero>
         </div>
     );
 };
