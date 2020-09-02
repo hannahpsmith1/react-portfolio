@@ -1,0 +1,11 @@
+.wrapper {
+    background-image:url("https://cdn.funcheap.com/wp-content/uploads/2015/01/muir-woods-1.jpg");
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+  }
+  

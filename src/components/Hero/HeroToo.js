@@ -1,7 +1,7 @@
 import React from "react";
 import './Hero.css';
 import Navbar from "../Navbar/Navbar"
-import Card from "../Card/Card"
+import Card from "../ProjectCard/Card"
 
 
 function Hero() {

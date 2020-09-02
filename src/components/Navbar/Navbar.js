@@ -4,8 +4,8 @@ import './navbar.css';
 function NavBar() {
     return (
 
-        <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
+        
+        <div class="tabs is-boxed is-fullwidth">
             <div className="container">
                 <ul>
                     <li className="home"><a href="/">Home</a></li>
@@ -15,8 +15,8 @@ function NavBar() {
                     <li><a href="/Employment">Employment</a></li>
                 </ul>
             </div>
-        </nav>
-</div >
+        </div>
+
     );
 
 }

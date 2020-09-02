@@ -9,15 +9,20 @@ function ProjectCard(props) {
       </div>
       <div className="content">
         <ul>
-          <li>
+          {/* <li>
             <strong>Project Title:</strong> {props.name}
           </li>
           <li>
-            <strong>github Link:</strong> {props.github}
+            <strong>Github Link:</strong> {props.github}
           </li>
           <li>
-            <strong>Deployed Link:</strong> {props.deployed}
-          </li>
+            <button>Deployed Link:</button> {props.deployed}
+          </li> */}
+          <li><strong>Project Title:</strong>{props.name}</li>
+          <li className = "small-font"><strong>Project Description:</strong>{props.description}</li>
+          <a href = {props.github}><button>Github Link</button></a>
+          <a href = {props.deployed}><button>Deployed Link</button></a>
+
         </ul>
       </div>
       {/* <span onClick={() => props.removeFriend(props.id)} className="remove">

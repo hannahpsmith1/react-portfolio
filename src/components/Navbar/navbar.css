@@ -9,12 +9,14 @@
     color: white;
     /* font-family: 'Anton', sans-serif; */
     font-size: large;
+    flex-grow: 1 !important;
     /* float:left; */
 }
 
       
 .tabs a {
-    color: blueviolet !important;
+    color: white !important;
     background-color: grey;
     opacity: 0.8;
+    flex-grow: 1 !important;
 }

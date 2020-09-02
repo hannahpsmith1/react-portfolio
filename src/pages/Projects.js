@@ -1,32 +1,44 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import projects from "../projects.json";
-import Card from "../components/Card/Card"
+import ProjectCard from "../components/ProjectCard/Card"
 import Hero from '../components/Hero/HeroToo';
+import Wrapper from "../components/Wrapper"
+import NavBar from "../components/Navbar/Navbar";
 
-class Projects extends Component {
+class ProjectsCards extends Component {
     // Setting this.state.friends to the friends json array
     state = {
-      projects: projects
+        projects: projects
     };
 
-    render () {
+    removeFriend = id => {
+        // Filter this.state.friends for friends with an id not equal to the id being removed
+        const projects = this.state.projects.filter(projects => projects.id !== id);
+        // Set this.state.friends equal to the new friends array
+        this.setState({ projects: projects });
+      };
+
+    render() {
         return (
-            <Hero>
+            <Wrapper>
                 {this.state.projects.map(projects => (
-                    <Card
-                    key={projects.name}
-                    name={projects.name}
-                    image={projects.img}
-                    github={projects.github}
-                    deployed={projects.deployed}
-                />
+                    <ProjectCard
+                    removeFriend={this.removeFriend}
+                        key={projects.name}
+                        name={projects.name}
+                        description={projects.description}
+                        image={projects.img}
+                        github={projects.github}
+                        deployed={projects.deployed}
+                    />
                 )
 
                 )}
-            </Hero>
+                <NavBar/>
+            </Wrapper>
         );
-                }
     }
+}
 
-    export default Projects;
+export default ProjectsCards;
