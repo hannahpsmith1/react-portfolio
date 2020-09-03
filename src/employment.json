@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1, 
+        "Company": "Katerra", 
+        "company Image": "full stack application to find and journal hikes",
+        "github": "https://github.com/hannahpsmith1/project-two",
+        "deployed": "https://hikr-journal.herokuapp.com/",
+        "img": "/img/hikr.png"
+    },
+
+]

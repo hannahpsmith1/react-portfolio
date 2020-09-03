@@ -26,15 +26,6 @@ function Hero() {
 
 
 
-            <div className="hero-body">
-                <div className="container has-text-centered">
-                    {/* <h1 className="title" style={{color: "white"}} >
-                        </h1> */}
-                        <Card/>
-                </div>
-            </div>
-
-
 
             <Navbar />
         </div >

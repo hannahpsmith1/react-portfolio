@@ -1,16 +1,14 @@
 import React from "react";
-// import Footer from "../components/Footer";
-// import Hero from "../components/Hero/Hero";
-import Hero from "../components/Hero/HeroToo"
+import Hero from "../components/Hero/HeroToo";
+import Wrapper from "../components/Wrapper/index";
+import NavBar from "../components/Navbar/Navbar";
+
+// import Slack from "../../public/img/Slack.jpg";
 
 const Home = () => {
     return (
-        // <Footer/>
-        <div>
-            <Hero/>
-        </div>
-        // <Hero/>
-        // <div>Hannah</div>
+<Hero/>
+        
     );
 };
 
